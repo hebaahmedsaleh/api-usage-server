@@ -1,0 +1,25 @@
+{
+  "name": "api-usage-server",
+  "version": "1.0.0",
+  "description": "server to track api usage",
+  "homepage": "https://github.com/hebaahmedsaleh/api-usage-server#readme",
+  "bugs": {
+    "url": "https://github.com/hebaahmedsaleh/api-usage-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hebaahmedsaleh/api-usage-server.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5"
+  }
+}
